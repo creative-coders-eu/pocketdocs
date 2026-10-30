@@ -30,7 +30,7 @@ Preview with `python3 -m http.server 8000` in this folder.
 ## Keep in sync with the app
 
 - **Prices** (US): Pro Yearly $19.99 with a 1-week free trial, Monthly $3.99, Lifetime $39.99. Free
-  holds up to 5 documents; Pro adds unlimited documents, and family members. Must match
+  holds up to 3 documents; Pro adds unlimited documents, and family members. Must match
   App Store Connect and the landing page, Terms §6–7 and Support.
 - **Privacy facts** the pages promise: no networking code, no account, no SDKs, "Data Not Collected";
   iOS Data Protection "complete" plus AES-GCM page-image encryption with a this-device-only Keychain
