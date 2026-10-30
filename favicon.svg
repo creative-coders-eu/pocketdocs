@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <title>Pocketdocs</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1024" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#008B91"/><stop offset="0.5" stop-color="#0A737E"/><stop offset="1" stop-color="#135A6A"/></linearGradient>
+    <clipPath id="shape"><rect width="1024" height="1024" rx="229"/></clipPath>
+  </defs>
+  <g clip-path="url(#shape)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <rect x="262" y="200" width="501" height="601" rx="56" fill="#FFFFFF"/>
+    <rect x="332" y="300" width="301" height="37" rx="18.5" fill="#C4E0E2"/>
+    <rect x="332" y="380" width="361" height="37" rx="18.5" fill="#C4E0E2"/>
+    <rect x="332" y="460" width="241" height="37" rx="18.5" fill="#C4E0E2"/>
+    <rect x="540" y="560" width="301" height="281" rx="60" fill="#005C62"/>
+    <rect x="604" y="553" width="34" height="88" fill="#FFFFFF"/>
+    <rect x="744" y="553" width="34" height="88" fill="#FFFFFF"/>
+    <circle cx="690.5" cy="682" r="22.5" fill="#FFFFFF"/>
+    <rect x="682" y="682" width="17" height="79" fill="#FFFFFF"/>
+  </g>
+</svg>
