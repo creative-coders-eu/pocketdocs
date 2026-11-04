@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Support · Pocketdocs</title>
-  <meta name="description" content="Pocketdocs support: answers about scanning, copying, expiry reminders, the Face ID lock, backups, purchases and deleting data, and how to email us.">
+  <meta name="description" content="Pocketdocs support: answers about adding documents, copying, AutoFill, iCloud sync and sharing, chip reading, reminders, the lock, backups, purchases and deleting data, and how to email us.">
   <link rel="canonical" href="https://creative-coders-eu.github.io/pocketdocs/support/">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#f5f8fb" media="(prefers-color-scheme: light)">
@@ -14,7 +14,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Pocketdocs">
   <meta property="og:title" content="Support · Pocketdocs">
-  <meta property="og:description" content="Pocketdocs support: answers about scanning, copying, expiry reminders, the Face ID lock, backups, purchases and deleting data, and how to email us.">
+  <meta property="og:description" content="Pocketdocs support: answers about adding documents, copying, AutoFill, iCloud sync and sharing, chip reading, reminders, the lock, backups, purchases and deleting data, and how to email us.">
   <meta property="og:url" content="https://creative-coders-eu.github.io/pocketdocs/support/">
   <meta property="og:image" content="https://creative-coders-eu.github.io/pocketdocs/assets/pocketdocs-icon-512.png">
   <meta property="og:image:alt" content="The Pocketdocs app icon: a white document with a dark teal padlock on a teal background.">
@@ -83,6 +83,9 @@
             <li><a href="#scan">How do I add a document?</a></li>
             <li><a href="#which-documents">Which documents can Pocketdocs read?</a></li>
             <li><a href="#copy">How does copying work?</a></li>
+            <li><a href="#autofill">How do I fill in a form with AutoFill?</a></li>
+            <li><a href="#sync">How do iCloud sync and family sharing work?</a></li>
+            <li><a href="#chip">How does chip reading work?</a></li>
             <li><a href="#reminders">Why didn’t my expiry reminder arrive?</a></li>
             <li><a href="#lock">How does the lock work?</a></li>
             <li><a href="#free-limit">What’s free, and what does Pro add?</a></li>
@@ -91,7 +94,7 @@
             <li><a href="#refund">How do I ask for a refund?</a></li>
             <li><a href="#new-iphone">What happens when I change iPhones?</a></li>
             <li><a href="#delete-data">How do I delete all my data?</a></li>
-            <li><a href="#no-account">Why doesn’t Pocketdocs have an account?</a></li>
+            <li><a href="#no-account">Do I need an account?</a></li>
             <li><a href="#official">Can I use Pocketdocs instead of my ID?</a></li>
           </ul>
         </nav>
@@ -101,19 +104,44 @@
 
           <div class="answer">
             <h3 id="scan">How do I add a document?</h3>
-            <p>Scan it with the camera, or pick a picture you already have in Photos. Pocketdocs reads the document on your iPhone and shows the details it found, so you can check and correct them before you save.</p>
-            <p>The first time you scan, iOS asks for permission to use the camera. You can change it later in the iPhone Settings app under Apps → Pocketdocs.</p>
+            <p>In Library, tap + (Add a document). Scan it with the camera, pick a picture you already have in Photos, import a PDF from Files, or type the details in. Pocketdocs reads the key details on your iPhone and shows them, so you can check and correct them, crop a page and pick dates before you save.</p>
+            <p>The camera outlines the document; press the shutter when you’re ready, or turn on Auto. The first time, iOS asks for permission to use the camera. You can change it later in the iPhone Settings app under Apps → Pocketdocs.</p>
           </div>
 
           <div class="answer">
             <h3 id="which-documents">Which documents can Pocketdocs read?</h3>
-            <p>Passports, ID cards, driving licences, insurance cards, car papers and other everyday documents. Pocketdocs uses Apple’s Vision text recognition on your iPhone and reads the machine-readable zone on passports and ID cards. On iPhones that support Apple Intelligence, Apple’s on-device model also helps sort the details.</p>
+            <p>Passports, ID cards, residence permits, driving licences, insurance and payment cards, boarding passes and tickets, car papers, contracts and other everyday documents. Pocketdocs uses Apple’s Vision text recognition on your iPhone and reads the machine-readable code lines on passports and ID cards. On iPhones that support Apple Intelligence, Apple’s on-device model also helps sort the details. It fills in the key details of each kind of document, such as the name, number and expiry date; the rest stays on the page images, and you can add any detail yourself.</p>
             <p>Text recognition can make mistakes, especially with glare, blur or unusual layouts. Always compare the details with the original document, and correct a field if it’s wrong.</p>
           </div>
 
           <div class="answer">
             <h3 id="copy">How does copying work?</h3>
-            <p>Search for a document or a detail, then tap a field to copy it and paste it into the form you’re filling in. The copy stays on this iPhone, so it isn’t shared with your other Apple devices, and Pocketdocs clears it from the clipboard after 60 seconds.</p>
+            <p>Open a document or search for a detail, then tap a field to copy it and paste it into the form you’re filling in. The copy stays on this iPhone, and Pocketdocs clears it from the clipboard after 60 seconds.</p>
+            <p>To paste on your Mac or iPad instead, touch and hold the field and choose Copy to Mac or iPad. This uses Apple’s Universal Clipboard, so your devices need to be signed in to the same Apple Account and near each other, with Handoff turned on. That copy also clears after 60 seconds.</p>
+          </div>
+
+          <div class="answer">
+            <h3 id="autofill">How do I fill in a form with AutoFill?</h3>
+            <p>AutoFill in Safari and apps is part of Pocketdocs Pro.</p>
+            <ol>
+              <li>In Pocketdocs, open Tools → AutoFill in Safari &amp; apps and tap Turn On AutoFill. Or, in the iPhone Settings app, go to General → AutoFill &amp; Passwords and turn on Pocketdocs.</li>
+              <li>In Safari or another app, touch and hold a text field and choose AutoFill → Passwords → Pocketdocs.</li>
+              <li>Pick a document and tap the detail you want. Pocketdocs inserts it into the field.</li>
+            </ol>
+            <p>If the app lock is on, AutoFill asks for Face ID, Touch ID or your passcode first. Pocketdocs appears in the Passwords list because that’s where iOS puts AutoFill providers, but it stores no passwords.</p>
+          </div>
+
+          <div class="answer">
+            <h3 id="sync">How do iCloud sync and family sharing work?</h3>
+            <p>iCloud sync is part of Pocketdocs Pro and is off until you turn it on in Tools → Sync with iCloud. Your documents are then kept in your own iCloud, end-to-end encrypted, so they appear on your other devices signed in to the same Apple Account. We can’t read them, and neither can Apple. They use your iCloud storage.</p>
+            <p>To share one person’s documents, for example your children’s with your partner, tap Share next to that person and invite another Apple Account. You choose whether they can only view or also edit, and you can stop sharing at any time. The person you invite needs Pocketdocs on their iPhone, but not Pocketdocs Pro.</p>
+            <p>To stop syncing, turn off Sync with iCloud. You can keep the iCloud copy or remove it; your documents stay on your iPhone either way.</p>
+          </div>
+
+          <div class="answer">
+            <h3 id="chip">How does chip reading work?</h3>
+            <p>Chip reading is part of Pocketdocs Pro and needs an iPhone with NFC and a passport or ID card with a chip. Open the document and tap Read the chip. Pocketdocs uses the document’s number, date of birth and expiry date, or the card access number (CAN) on ID cards, to open the chip. Then hold the top of your iPhone flat against the document until the reading finishes.</p>
+            <p>The details from the chip replace the scanned ones, and Pocketdocs checks that the chip’s data is signed and unchanged. That check doesn’t prove that the document is genuine. Everything stays on your iPhone.</p>
           </div>
 
           <div class="answer">
@@ -129,13 +157,14 @@
 
           <div class="answer">
             <h3 id="lock">How does the lock work?</h3>
-            <p>Pocketdocs asks for Face ID, or your device passcode, before it shows your documents. Face ID is handled by iOS: Pocketdocs never sees your face data.</p>
-            <p>Behind the lock, Pocketdocs’ data is protected by iOS Data Protection, and page images are encrypted again with a key kept in your iPhone’s Keychain that never leaves this device.</p>
+            <p>When the lock is on, Pocketdocs asks for Face ID, Touch ID or your device passcode before it shows your documents, and locks again when you leave the app. Face ID and Touch ID are handled by iOS: Pocketdocs never sees your face or fingerprint data.</p>
+            <p>Behind the lock, Pocketdocs’ data is protected by iOS Data Protection, and page images are encrypted again with a key kept in your iPhone’s Keychain.</p>
           </div>
 
           <div class="answer">
             <h3 id="free-limit">What’s free, and what does Pro add?</h3>
-            <p>You can keep up to 3 documents for free, with scanning, on-device reading, search and copy, expiry reminders and the lock. Pocketdocs Pro adds unlimited documents and family members. It’s $19.99 a year with a 1-week free trial, $3.99 a month, or $39.99 once (US prices).</p>
+            <p>You can keep up to 3 documents for free, with scanning, on-device reading, search and copy (including Copy to Mac or iPad), expiry reminders, the lock, colour themes and encrypted backup files.</p>
+            <p>Pocketdocs Pro adds unlimited documents, family members, iCloud sync and sharing, AutoFill in Safari and apps, chip reading, watermarked copies, the trip check and renewal checklists, and widgets. It’s $19.99 a year with a 1-week free trial, $3.99 a month, or $39.99 once (US prices).</p>
           </div>
 
           <div class="answer">
@@ -144,7 +173,7 @@
             <ol>
               <li>Make sure you’re signed in to the App Store with the Apple Account you used to buy Pocketdocs Pro.</li>
               <li>In Pocketdocs, open Settings.</li>
-              <li>Tap Restore Purchases.</li>
+              <li>Tap Restore purchases.</li>
             </ol>
             <p>Still not working? Email us with the plan you bought and roughly when. We don’t need receipts.</p>
           </div>
@@ -167,25 +196,30 @@
 
           <div class="answer">
             <h3 id="new-iphone">What happens when I change iPhones?</h3>
-            <p>By default, Pocketdocs keeps its data out of your iCloud and computer backups, so nothing leaves your iPhone. That also means your documents don’t move to a new iPhone, and you’ll need to scan them again there.</p>
-            <p>If you’d rather have them in your backup, turn on Include in iPhone backup in Pocketdocs’ settings. Your data then travels inside your own Apple or computer backup. We never receive it. Pocketdocs doesn’t sync between devices.</p>
+            <p>There are three ways to bring your documents along:</p>
+            <ul>
+              <li><strong>iCloud sync</strong> (Pro): turn it on, and your documents appear on the new iPhone once it’s signed in to the same Apple Account.</li>
+              <li><strong>A backup file</strong>: in Tools, export an encrypted backup with a password you choose, then import it on the new iPhone. Nobody can open the file without that password, and we can’t recover it.</li>
+              <li><strong>Your iPhone backup</strong>: turn on Include in iPhone backup in Pocketdocs’ settings before you back up. It’s off by default.</li>
+            </ul>
+            <p>Otherwise your documents stay on the old iPhone, and you’ll need to add them again.</p>
           </div>
 
           <div class="answer">
             <h3 id="delete-data">How do I delete all my data?</h3>
-            <p>In Pocketdocs’ settings, tap Delete all data to erase everything Pocketdocs has stored on your iPhone. This can’t be undone. Your Pocketdocs Pro purchase isn’t affected. Deleting the app also removes its data from your iPhone.</p>
-            <p>Other copies aren’t affected: pictures you imported from Photos stay in Photos, and if you turned on Include in iPhone backup, older backups may still contain Pocketdocs data until they’re replaced. We don’t have a copy, so there’s nothing to delete on our side, unless you emailed us; if so, ask us to delete your emails.</p>
+            <p>In Pocketdocs’ settings, tap Delete all data to erase everything Pocketdocs has stored on your iPhone. This can’t be undone. If iCloud sync is on, your documents are also deleted from iCloud and your other devices. Your Pocketdocs Pro purchase isn’t affected. Deleting the app also removes its data from your iPhone, but not from iCloud: to remove your iCloud copy, choose Turn off and remove iCloud copy in Tools → Sync with iCloud first.</p>
+            <p>Other copies aren’t affected: pictures you imported from Photos stay in Photos, backup files you exported stay where you saved them, and if you turned on Include in iPhone backup, older backups may still contain Pocketdocs data until they’re replaced. We don’t have a copy, so there’s nothing to delete on our side, unless you emailed us; if so, ask us to delete your emails.</p>
           </div>
 
           <div class="answer">
-            <h3 id="no-account">Why doesn’t Pocketdocs have an account?</h3>
-            <p>Accounts mean servers, and servers mean copies of your passport and ID sitting in a database somewhere. We’d rather not hold them at all. Pocketdocs has no networking code: your documents are stored on your iPhone, Apple handles purchases, and there’s nothing to sign up for.</p>
-            <p>The trade-off: we can’t recover your data for you, and Pocketdocs doesn’t sync between devices.</p>
+            <h3 id="no-account">Do I need an account?</h3>
+            <p>No. There’s nothing to sign up for. Purchases use your Apple Account, and iCloud sync uses your own iCloud. We run no servers for Pocketdocs, so there’s no copy of your passport or ID on our side to leak.</p>
+            <p>The trade-off: we can’t recover your documents for you, so keep your originals safe and consider iCloud sync or a backup file.</p>
           </div>
 
           <div class="answer">
             <h3 id="official">Can I use Pocketdocs instead of my ID?</h3>
-            <p>No. Pocketdocs keeps copies of your documents for your own reference. It doesn’t verify whether a document is genuine and isn’t an official form of identification, so carry the original whenever you need to show it. See the <a href="../terms/">Terms of Use</a>.</p>
+            <p>No. Pocketdocs keeps copies of your documents for your own reference. It doesn’t verify whether a document is genuine and isn’t an official form of identification, so carry the original whenever you need to show it. Airlines and venues may also ask for their own boarding pass or ticket. See the <a href="../terms/">Terms of Use</a>.</p>
           </div>
         </article>
       </div>
@@ -199,7 +233,7 @@
             <img class="brand-mark" src="../favicon.svg" alt="" width="34" height="34">
             <span>Pocketdocs</span>
           </a>
-          <p>A private wallet for your IDs and documents, kept on your iPhone. Coming soon to the App Store for iPhone.</p>
+          <p>A private wallet for your IDs and documents. Coming soon to the App Store for iPhone.</p>
           <p>No cookies, analytics or trackers: not on this website, not in the app.</p>
         </div>
         <nav class="footer-col" aria-label="Product">
@@ -229,7 +263,7 @@
       </div>
       <div class="footer-legal">
         <p>Pocketdocs is a personal organiser for copies of your documents. It doesn’t check whether a document is genuine and isn’t an official ID. Always compare the details it reads with the original document.</p>
-        <p>Apple, iPhone, App Store, Apple Intelligence, Face ID and iCloud are trademarks of Apple Inc., registered in the U.S. and other countries and regions.</p>
+        <p>Apple, iPhone, iPad, Mac, Safari, App Store, Apple Intelligence, Face ID, Touch ID and iCloud are trademarks of Apple Inc., registered in the U.S. and other countries and regions.</p>
         <p><span lang="pl">CREATIVE CODERS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ</span>, registered office in Warsaw, is entered in the National Court Register (KRS) under number 0001271368 by the District Court for the Capital City of Warsaw in Warsaw, 13th Commercial Division of the National Court Register (<span lang="pl">Sąd Rejonowy dla m.st. Warszawy w Warszawie, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego</span>). NIP 9512657914 · REGON 545941605 · Share capital PLN 5,000.00 (the required contributions to the share capital have not been paid in).</p>
         <p>© 2026 Creative Coders sp. z o.o.</p>
       </div>
