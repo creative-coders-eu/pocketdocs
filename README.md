@@ -31,8 +31,8 @@ Preview with `python3 -m http.server 8000` in this folder.
 ## Keep in sync with the app
 
 - **Prices** (US): Pro Yearly $19.99 with a 1-week free trial, Monthly $3.99, Lifetime $39.99. Free
-  holds up to 3 documents. Pro adds unlimited documents, family members, iCloud sync and sharing,
-  AutoFill in Safari and apps, chip reading, watermarked copies, trip check and renewal checklists, and
+  holds up to 3 documents. Pro adds unlimited documents, family members and sharing, end-to-end
+  encrypted sync between your devices (the paywall's words, not "iCloud sync"), AutoFill in Safari and apps, chip reading, watermarked copies, trip check and renewal checklists, and
   widgets. Must match App Store Connect, the app's paywall, the landing page, Terms §5–7 and Support.
 - **Privacy facts** the pages promise: no sign-up and no servers of ours; the app talks only to Apple
   (StoreKit, and CloudKit while iCloud sync is on); no SDKs, "Data Not Collected"; iOS Data Protection
@@ -40,7 +40,8 @@ Preview with `python3 -m http.server 8000` in this folder.
   optional iCloud sync and sharing with every value in CloudKit `encryptedValues` and pages sealed by the
   app; chip data read and kept on the device (the face photo isn't saved); the AutoFill index sealed
   with a this-device-only key and wiped when AutoFill or Pro is off; Copy to Mac or iPad only on request,
-  60-second clipboard expiry; password-encrypted backup files; data excluded from iPhone backups unless
+  60-second clipboard expiry; a payment card's security code typed only, shown or copied after device authentication
+  (hidden with no passcode), copied to this iPhone only, never in AutoFill or search; password-encrypted backup files; data excluded from iPhone backups unless
   "Include in iPhone backup" is on; widgets show type, title, owner and expiry only; reminder text names
   only the document type; "Delete all data" in Settings. Update the pages if any of these change.
 - **Legal pages** are at version 1.1. Any change updates the version and effective date and adds a
